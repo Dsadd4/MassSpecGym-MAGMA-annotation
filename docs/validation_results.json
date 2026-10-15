@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-14",
+  "scope": "synthetic interface and packaging validation only; not a scientific benchmark",
+  "environment": {
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "numba": "0.61.2",
+    "rdkit": "2025.3.6",
+    "tqdm": "4.67.1",
+    "matplotlib": "3.10.8"
+  },
+  "python": "3.13.2",
+  "runs": {
+    "single": {
+      "workers": 1,
+      "canonicalize": false,
+      "samples": 2,
+      "successful_samples": 2,
+      "annotation_json_sha256": "5e51b9511eb89f30a3221b84a8dc8db3c93ffe08bcbea2ce73d510e17672b6f2"
+    },
+    "multi": {
+      "workers": 2,
+      "canonicalize": false,
+      "samples": 2,
+      "successful_samples": 2,
+      "annotation_json_sha256": "5e51b9511eb89f30a3221b84a8dc8db3c93ffe08bcbea2ce73d510e17672b6f2"
+    },
+    "default": {
+      "workers": 1,
+      "canonicalize": true,
+      "samples": 2,
+      "successful_samples": 2,
+      "annotation_json_sha256": "5e51b9511eb89f30a3221b84a8dc8db3c93ffe08bcbea2ce73d510e17672b6f2"
+    }
+  },
+  "checks": {
+    "single_vs_multi_identical": true,
+    "module_and_direct_help": true,
+    "overwrite_refused_without_modifying_output": true,
+    "imports_without_optional_h5py_multiprocess_pathos": true,
+    "extra_arguments_cannot_override_managed_input_workers_outputs": true,
+    "final_wrapper_implementation_validated": true
+  }
+}

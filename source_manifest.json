@@ -1,0 +1,55 @@
+{
+  "source_project": "UltraGo",
+  "source_snapshot_date": "2026-10-14",
+  "original_files": [
+    {
+      "path": "fragments/__init__.py",
+      "sha256": "690a6e7577fbaa7960c0421394257a823f6e048043728d1a17d3a9bc7aa2f131"
+    },
+    {
+      "path": "fragments/magma/__init__.py",
+      "sha256": "8281c35903e9d353ab313fe3a243d07edaf099e379316f69ff2bd022c69edb94"
+    },
+    {
+      "path": "fragments/magma/fragmentation.py",
+      "sha256": "7996230f62a26cd5fd1e673b974a26a7ff9631bdc32f5f4596e54f7ecaa7dedf"
+    },
+    {
+      "path": "fragments/magma/common.py",
+      "sha256": "b2e2d8d37a9ef2d491f21d2b67c7dae5727db07db29a09c60c758121b2bc0222"
+    },
+    {
+      "path": "fragments/magma/chem_utils.py",
+      "sha256": "06ce8ef9aad250257a211dfdb9f4babf62c44de10b414474b9d2e95dbcb1459e"
+    },
+    {
+      "path": "fragments/magma/misc_utils.py",
+      "sha256": "033b7d93714ea9855bb7a414502ae571d4e3a417a583e0a9964402f404716550"
+    },
+    {
+      "path": "fragments/magma/parallel_utils.py",
+      "sha256": "20f298ea468c5978f5765dcf4e201aa149ed31f07b052f822fb40a1986b4effb"
+    },
+    {
+      "path": "fragments/magma/op/__init__.py",
+      "sha256": "c716b46799868d883b3b4e82bd78205dfbf7f2590cefd2c5d304267fce65c1d6"
+    },
+    {
+      "path": "fragments/magma/op/fragmentation_op_v8.py",
+      "sha256": "956c232c58926431e04e7c25b294ed9f74a05c40533b3e5c48e84bd020ed6b76"
+    },
+    {
+      "path": "fragments/magma/op/Magma4MassSpecGYm.py",
+      "sha256": "12b2ff8b46b87fefea009dd700b3fadf218d40f28d9ef86c806a9d4219555684"
+    }
+  ],
+  "source_environment": {
+    "rdkit": "2025.3.6",
+    "numpy": "2.2.6",
+    "pandas": "2.3.1",
+    "numba": "0.61.2",
+    "tqdm": "4.67.1",
+    "matplotlib": "3.10.8"
+  },
+  "scope": "MAGMa v8 generator and required local dependencies; no full dataset or training pipeline"
+}

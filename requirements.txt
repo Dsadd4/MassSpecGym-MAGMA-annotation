@@ -1,0 +1,7 @@
+# Versions observed in the source A800 environment (Python 3.13.2).
+numpy==2.2.6
+pandas==2.3.1
+numba==0.61.2
+rdkit==2025.3.6
+tqdm==4.67.1
+matplotlib==3.10.8

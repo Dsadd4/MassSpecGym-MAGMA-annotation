@@ -1,0 +1,8 @@
+name: massspecgym-magma
+channels:
+  - conda-forge
+dependencies:
+  - python=3.13.2
+  - pip
+  - pip:
+      - -r requirements.txt
