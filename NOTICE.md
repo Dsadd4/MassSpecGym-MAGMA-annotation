@@ -1,6 +1,6 @@
 # Source and scope
 
-This repository is a private research handoff of the UltraGo MAGMa v8
+This repository is a public research handoff of the UltraGo MAGMa v8
 MassSpecGym annotation generator and the local modules required to import it.
 The source snapshot was taken on 2026-10-14.
 
@@ -9,6 +9,6 @@ packaging. `docs/PACKAGING.md` records the portability changes. The fragmentatio
 matching, and annotation algorithms have not been repaired or replaced.
 
 No new open-source license is assigned in this handoff. Existing authorship and
-upstream licensing must be established before a public release or relicensing.
+applicable upstream licensing are unchanged.
 Full datasets, credentials, remote access configuration, and training models are
 not part of this repository.

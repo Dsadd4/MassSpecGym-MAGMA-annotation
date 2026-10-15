@@ -1,6 +1,6 @@
 # Scope
 
-This is a private handoff of the existing MassSpecGym MAGMa v8 annotation
+This is a public handoff of the existing MassSpecGym MAGMa v8 annotation
 generator. Read README.md, docs/KNOWN_ISSUES.md, and docs/PACKAGING.md before work.
 
 - Do not silently change fragmentation, mass matching, atom indexing, or output
